@@ -17,4 +17,40 @@ export class ProductController {
     const product = await this.productService.addProduct(newProduct);
     res.status(201).json(product);
   }
+
+  /**
+   * @swagger
+   * /products:
+   *   get:
+   *     summary: Retorna todos os produtos
+   *     responses:
+   *       200:
+   *         description: Uma lista de produtos
+   *         content:
+   *           application/json:
+   *             schema:
+   *               type: array
+   *               items:
+   *                 $ref: '#/components/schemas/Product'
+   */
+
+  /**
+   * @swagger
+   * /products:
+   *   post:
+   *     summary: Adiciona um novo produto
+   *     requestBody:
+   *       required: true
+   *       content:
+   *         application/json:
+   *           schema:
+   *             $ref: '#/components/schemas/Product'
+   *     responses:
+   *       201:
+   *         description: Produto criado
+   *         content:
+   *           application/json:
+   *             schema:
+   *               $ref: '#/components/schemas/Product'
+   */
 }
