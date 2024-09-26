@@ -21,10 +21,10 @@ app.listen(PORT, () => {
 // Configuração do Swagger
 const swaggerOptions = {
   swaggerDefinition: {
-    openapi: "3.0.0", // Versão do OpenAPI
+    openapi: "3.0.0",
     info: {
       title: "Inventory System",
-      version: "1.0.0", // Versão da API
+      version: "1.0.0",
       description: "Uma API para gerenciar produtos e inventário",
     },
     servers: [
