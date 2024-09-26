@@ -1,0 +1,10 @@
+{
+  "name": "multi-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix Inventory_System/backend\" \"npm run dev --prefix Inventory_System/frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

@@ -36,9 +36,8 @@ API para gerenciamento de produtos de roupas, pedidos e inventário com [Express
  npm start
 ```
 
-Acesse a API em http://localhost:3000.
+## 📖 Documentação da API com Swagger
 
-## 📑 Endpoints
+A API é documentada utilizando o Swagger. Para acessar a documentação, inicie o servidor e navegue até:
 
-- **GET** /products: Lista todos os produtos.
-- **POST** /products: Adiciona um novo produto.
+Documentação: http://localhost:3000/api-docs
