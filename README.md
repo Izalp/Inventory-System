@@ -7,7 +7,7 @@ Repositório para registro do exercício desenvolvido na disciplina C214-L1 no I
 
 ## 📦 Inventory-System
 
-API para gerenciamento de produtos de roupas, pedidos e inventário com [Express.js](https://expressjs.com/) e [TypeScript](https://www.typescriptlang.org/).
+API para gerenciamento de produtos e inventário com [Express.js](https://expressjs.com/) e [TypeScript](https://www.typescriptlang.org/).
 
 ## 🛠️ Pré-requisitos
 
