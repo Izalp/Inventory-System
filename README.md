@@ -18,8 +18,8 @@ API para gerenciamento de produtos e inventário com [Express.js](https://expres
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Izalp/Inventory-System.git
-cd Inventory-System
+ git clone https://github.com/Izalp/Inventory-System.git
+ cd Inventory-System
 ```
 
 2. Instale as dependências:
